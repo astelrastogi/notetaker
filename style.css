@@ -1,0 +1,63 @@
+body{
+    background-color:grey;
+    padding: 0;
+    margin: 0;
+}
+.navbar h3{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.navbar-nav li{
+    padding-right: 0.7rem;
+}
+.navbar ul li a{
+    font-size: 35px;
+}
+.note{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.fa-plus{
+    size: 30px;
+    color:white;
+    
+}
+.back{
+    background-color: black;
+    background: black;
+}
+#notesWrapper{
+    padding: 50px;
+
+}
+.notes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+   
+}
+.note{
+    border-radius: 8px;
+    background-color: burlywood;
+    width: 280px;
+    margin: 0 10px 20px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+    translate: all 0.5s;
+    
+}
+.note-header{
+    padding: 10px 16px 0;
+}
+.note-close{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
